@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="bg-stone-800 h-[100vh] flex flex-col justify-center items-center gap-20">
+    <div className="bg-stone-800 h-screen flex flex-col justify-center items-center gap-20">
       <div className='text-7xl rounded-full text-center bg-white p-7'>
         {count}
       </div>
